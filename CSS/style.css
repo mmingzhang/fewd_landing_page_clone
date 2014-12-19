@@ -52,6 +52,7 @@ ol, ul {
 }
 .top-navigation .logo {
     height: 70px;
+    margin-left: 20px; 
 }
 .top-navigation .links {
     float: right;
@@ -104,7 +105,7 @@ ol, ul {
     margin-top: 1.563rem;
 }
 
-button {
+.introduction .big-button button{
     width: 9.688rem;
     background-color: #f15a29;
     border-color: #f15a29;
@@ -115,7 +116,8 @@ button {
     color: white;
     padding: 1rem 1.5rem;
 }
-button:hover {
+
+.big-button button:hover{
     background-color: #d9400e;
     border-color: #cf3d0e;
     cursor: pointer;
